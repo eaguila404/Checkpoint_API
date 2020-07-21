@@ -20,8 +20,10 @@ ENDPOINTS:
  
 Database:
 TABLE 1: CHECKPOINTS
+
 guid, longitude, latitude
 
 TABLE 2: EXPOSED_CHECKPOINTS
+
 id, guid, epoch
  
