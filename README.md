@@ -16,7 +16,6 @@ ENDPOINTS:
 "/checkpoint/delete/<guid>", method = delete, Delete a specific Checkpoint form the Network.
  
  
- 
 
 "/report", method = post, Report a Checkpoint as Exposed.
 
@@ -26,9 +25,11 @@ ENDPOINTS:
 
 "/exposedcheckpoint/delete/<id>", method = delete, Delete a specific Exposed Checkpoint.
  
- 
+ -----------------------------------------------------------------------------------------------------
  
 Database:
+
+
 TABLE 1: CHECKPOINTS
 
 guid, longitude, latitude
